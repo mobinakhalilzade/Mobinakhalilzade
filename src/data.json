@@ -1,0 +1,168 @@
+{
+  "menuItem": [
+    
+    {
+      "name": "Professional",
+      "link": "professional",
+      "active": false
+    },
+    {
+      "name": "Personal",
+      "link": "personal",
+      "active": false
+    },
+    {
+      "name": "Blog",
+      "link": "blogs",
+      "active": false
+    },
+    {
+      "name": "Contact",
+      "link": "contact",
+      "active": false
+    }
+  ],
+  "skills": [
+    {
+      "title": "HTML",
+      "logo": "fa-brands fa-html5",
+      "photo": "../../../../assets/images/html.png",
+      "level": "expert"
+    },
+    {
+      "title": "CSS",
+      "logo": "fa-brands fa-css3-alt",
+      "photo": "../../../../assets/images/css.png",
+      "level": "expert"
+    },
+    {
+      "title": "Bootstrap",
+      "logo": "fa-brands fa-css3-alt",
+      "photo": "../../../../assets/images/bootstrap.png",
+      "level": "expert"
+    },
+    {
+      "title": "Tailwind",
+      "logo": "fa-brands fa-css3-alt",
+      "photo": "../../../../assets/images/tailwind.png",
+      "level": "advanced"
+    },
+    {
+      "title": "JavaScript",
+      "logo": "fa-brands fa-square-js",
+      "photo": "../../../../assets/images/js.png",
+      "level": "advanced"
+    },
+    {
+      "title": "TypeScript",
+      "logo": "fa-regular fa-t",
+      "photo": "../../../../assets/images/ts.png",
+      "level": "advanced"
+    },
+    {
+      "title": "Angular",
+      "logo": "fa-brands fa-angular",
+      "photo": "../../../../assets/images/angular.png",
+      "level": "advanced"
+    },
+    {
+      "title": "RxJs",
+      "logo": "fa-brands fa-react",
+      "photo": "../../../../assets/images/rxjs.png",
+      "level": "intermediate"
+    },
+    {
+      "title": "React",
+      "logo": "fa-brands fa-react",
+      "photo": "../../../../assets/images/react.png",
+      "level": "intermediate"
+    },
+    {
+      "title": "Redux",
+      "logo": "fa-brands fa-react",
+      "photo": "../../../../assets/images/redux.png",
+      "level": "basic"
+    },
+    {
+      "title": "Git",
+      "logo": "fa-brands fa-git",
+      "photo": "../../../../assets/images/git.png",
+      "level": "intermediate"
+    },
+    {
+      "title": "NodeJs",
+      "logo": "fa-brands fa-node-js",
+      "photo": "../../../../assets/images/nodejs.png",
+      "level": "intermediate"
+    },
+    {
+      "title": "Express",
+      "logo": "fa-brands fa-node-js",
+      "photo": "../../../../assets/images/express.png",
+      "level": "learning"
+    },
+    {
+      "title": "Mongo DB",
+      "logo": "fa-solid fa-database",
+      "photo": "../../../../assets/images/mongodb.png",
+      "level": "learning"
+    },
+    {
+      "title": "Adobe Photoshop",
+      "logo": "fa-regular fa-p",
+      "photo": "../../../../assets/images/photoshop.png",
+      "level": "basic "
+    },
+    {
+      "title": "Adobe XD",
+      "logo": "fa-regular fa-x",
+      "photo": "../../../../assets/images/xd.png",
+      "level": "basic"
+    }
+  ],
+  "blogItems": [
+    {
+      "title": "Shared Module",
+      "description": "We intend to build an angular application with shared module for making use of reusable codes.",
+      "img": "../../../../assets/images/shared-module.png",
+      "link": "https://medium.com/@mobinaya/shared-module-in-angular-bc56f8264b2e",
+      "date": "May 28, 2021"
+    }
+  ],
+  "socialMediaItems": [
+    {
+      "name": "Linkedin",
+      "link": "https://www.linkedin.com/in/mobina-khalilzade/",
+      "icon": "fab fa-linkedin-in"
+    },
+    {
+      "name": "Github",
+      "link": "https://github.com/mobinakhalilzade",
+      "icon": "fab fa-github"
+    },
+    {
+      "name": "Whatsapp",
+      "link": "https://wa.me/+989016355725",
+      "icon": "fab fa-whatsapp"
+    },
+    {
+      "name": "Telegram",
+      "link": "https://t.me/mobinaya",
+      "icon": "fa-brands fa-telegram"
+    }
+  ],
+  "about": {
+    "professional":{
+      "title": "Mobina Khalilzade",
+      "description": "I am a computer science graduate. Since 2019, I have been working as a front-end developer specializing in the Angular framework in order to build and develop websites, PWAs, and admin dashboards. I have experienced working for both startup and well-established companies. I am currently living in Istanbul, Turkey but I was born in Tehran, Iran. I speak Farsi, English, Spanish and Turkish.",
+      "img": "../../../../assets/images/mobinakhalilzade-crop.jpg",
+      "link":"https://drive.google.com/file/d/17w01GAwFCKACeK3YYbeA1-C9bXeqWlZo/view?usp=share_link"
+    },
+    "personal":{
+      "title": "Shared Module",
+      "description": "I am 26 years old married woman who is a feminist at heart and besides coding, I spend my time on many different things. I care about a healthy lifestyle, so I cook for almost every meal. baking cookies and cakes make me really happy. Honestly, I enjoy cooking more than eating :) I lift weights every other day to stay fit. Following and listening to Huberman's podcast has helped me a lot in having a healthy lifestyle. The second most important hobby of mine is watching movies and TV series. I like watching popular TV shows. But I love artistic movies and reading their critics or joining movie criticism sessions. I can watch movies with mythological stories like Mother anti crist over and over again like I used to swim and take part in swimming competitions during primary and high school but now I just swim in summers and for recreation :) This is a kind of side effect of having a job like programming:))",
+      "img": "../../../../assets/images/mobina.jpg"
+    }
+  }
+    
+}
