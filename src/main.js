@@ -269,6 +269,38 @@ function renderPersonalSection() {
  `;
 }
 
+function dateDiffInDays(a, b) {
+  const _MS_PER_DAY = 1000 * 60 * 60 * 24;
+  // Discard the time and time-zone information.
+  const utc1 = Date.UTC(a.getFullYear(), a.getMonth(), a.getDate());
+  const utc2 = Date.UTC(b.getFullYear(), b.getMonth(), b.getDate());
+
+  return Math.floor((utc2 - utc1) / _MS_PER_DAY);
+}
+
+function duolingoStreak() {
+  let duolingo = document.getElementById("duolingo");
+  let today = new Date();
+  let day = new Date("2023/01/03");
+
+  let difference = dateDiffInDays(today, day);
+  let streak = 393 + difference;
+
+  let html = "";
+  let segment = `<div>
+  <img src="../assets/images/duolingo.png" class="w-1/2 mx-auto" alt="duolingo logo">
+  <div class="text-center text-orange">
+  <div class="text-[50px] font-extrabold">${streak}</div>
+  <div class="flex justify-center">
+  <div class="text-xl font-bold">days of learning Spanish </div>
+  <img width="50" height="40" src="../assets/images/spain.jpg" alt="spain flag" />
+  </div>
+  </div>
+  </div>`;
+  html += segment;
+  duolingo.innerHTML = html;
+}
+
 function renderBlog() {
   const data = [
     {
@@ -356,4 +388,5 @@ renderSocialMedia();
 renderSkills();
 renderProfessionalSection();
 renderPersonalSection();
+duolingoStreak();
 getYear();
