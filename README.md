@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, It's
+<h1 align="center">Hi👋, It's
 <a target="_blank" href="">Mobina</a>
 </h1>
 
