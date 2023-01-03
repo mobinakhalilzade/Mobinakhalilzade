@@ -18,15 +18,14 @@
 
 - 🤝 I’m open to work.
 
-- 🌱 I’m currently learning React.js && node.js
-
-<!-- - 📝 I regularly write articles on [name](link) -->
-
 - 💬 Ask me about **JavaScript & Angular**
+
+- 🌱 I’m currently learning React.js && node.js
 
 - 📫 How to reach me **mobinakhalilzade@gmail.com**
 
 - 📄 Know about my experiences on my <a target="_blank" href="https://drive.google.com/file/d/17w01GAwFCKACeK3YYbeA1-C9bXeqWlZo/view?usp=share_link">Resume</a>
+<!-- - 📝 I regularly write articles on [name](link) -->
 
 <br/>
 
