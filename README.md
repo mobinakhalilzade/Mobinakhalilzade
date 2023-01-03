@@ -30,7 +30,7 @@
 
 <br/>
 
-<h2 align="center"><u><b>Skills</b></u></h2>
+<!-- <h2 align="center"><u><b>Skills</b></u></h2> -->
 
 <h3 align="center">Frontend</h3>
 <p align="center">
@@ -102,10 +102,11 @@
 
  <div align="center"  class="icons-social" style="margin-left: 10px;">
         <a style="margin-left: 10px;"  target="_blank" href="https://www.linkedin.com/in/mobina-khalilzade/">
-			<img width="40" height="30" src="https://assets.stickpng.com/images/58e91afdeb97430e81906504.png"></a>
+			<img width="40" height="30" src="https://olc-wordpress-assets.s3.amazonaws.com/uploads/2020/05/linkedin-icon.png"
+            alt="Linkedin logo"></a>
         <a style="margin-left: 10px;" target="_blank" href="https://github.com/mobinakhalilzade">
-		<img width="40" height="30" src="https://cdn-icons-png.flaticon.com/512/25/25231.png"></a>
+		<img width="40" height="50" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github logo"></a>
 		<a style="margin-left: 10px;" target="_blank" href="https://stackoverflow.com/users/11771605/mobina-khalilzade">
-				<img width="40" height="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Stack_Overflow_icon.svg/768px-Stack_Overflow_icon.svg.png"></a>
+				<img width="40" height="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Stack_Overflow_icon.svg/768px-Stack_Overflow_icon.svg.png" alt="Stackoverflow logo"></a>
       </div>
 </p>
