@@ -30,7 +30,9 @@
 
 <br/>
 
-<!-- <h2 align="center"><u><b>Skills</b></u></h2> -->
+<h2 align="center"><u><b>
+<!-- Skills -->
+</b></u></h2>
 
 <h3 align="center">Frontend</h3>
 <p align="center">
@@ -102,7 +104,7 @@
 
  <div align="center"  class="icons-social" style="margin-left: 10px;">
         <a style="margin-left: 10px;"  target="_blank" href="https://www.linkedin.com/in/mobina-khalilzade/">
-			<img width="40" height="50" src="https://olc-wordpress-assets.s3.amazonaws.com/uploads/2020/05/linkedin-icon.png"
+			<img width="40" height="45" src="https://olc-wordpress-assets.s3.amazonaws.com/uploads/2020/05/linkedin-icon.png"
             alt="Linkedin logo"></a>
         <a style="margin-left: 10px;" target="_blank" href="https://github.com/mobinakhalilzade">
 		<img width="45" height="45" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github logo"></a>
