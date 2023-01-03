@@ -1,5 +1,3 @@
-import * as data from "./data.json" assert { type: "json" };
-
 const area = document.querySelector("#galaxy");
 let amountMeteor = 100;
 let amountStar = 600;
@@ -61,9 +59,31 @@ function galaxy() {
 }
 
 function renderMenu() {
+  const menuItem =[
+    {
+      name: "Professional",
+      link: "professional",
+      active: false
+    },
+    {
+      name: "Personal",
+      link: "personal",
+      active: false
+    },
+    {
+      name: "Blog",
+      link: "blogs",
+      active: false
+    },
+    {
+      name: "Contact",
+      link: "contact",
+      active: false
+    }
+  ]
   const navbar = document.getElementById("navbar");
   let html = "";
-  data.default.menuItem.forEach((i) => {
+  menuItem.forEach((i) => {
     let anchor = `<a href="#${i.link}" class="text-base font-medium
      text-white hover:text-pink">${i.name}</a>`;
     html += anchor;
@@ -72,18 +92,122 @@ function renderMenu() {
 }
 
 function renderProfessionalSection() {
+  const professional =  {
+    title: "Mobina Khalilzade",
+    description: "I am a computer science graduate. Since 2019, I have been working as a front-end developer specializing in the Angular framework in order to build and develop websites, PWAs, and admin dashboards. I have experienced working for both startup and well-established companies. I am currently living in Istanbul, Turkey but I was born in Tehran, Iran. I speak Farsi, English, Spanish and Turkish.",
+    img: "./assets/images/mobinakhalilzade-crop.jpg",
+    link: "https://drive.google.com/file/d/17w01GAwFCKACeK3YYbeA1-C9bXeqWlZo/view?usp=share_link"
+  };
   const photo = document.getElementById("photo");
   photo.innerHTML = `<img width="200" height="100" class="mx-auto rounded-full mb-4 shadow-md"
-    src="${data.default.about.professional.img}" alt="${data.default.about.professional.title}" />
+    src="${professional.img}" alt="${professional.title}" />
     <div class="flex justify-center">
-   <p class="text-black basis-full md:basis-2/3">${data.default.about.professional.description}</p></div>
+   <p class="text-black basis-full md:basis-2/3">${professional.description}</p></div>
    <div class="text-center text-pink mx-auto">
    <label class="block my-5">Here my resume</label>
-   <a target="_blank"href=${data.default.about.professional.link}><i class="fa-solid fa-file-lines fa-2xl"></i></a></div>
+   <a target="_blank"href=${professional.link}><i class="fa-solid fa-file-lines fa-2xl"></i></a></div>
    `;
 }
 
 function renderSkills() {
+  const data = [
+    {
+      title: "HTML",
+      logo: "fa-brands fa-html5",
+      photo: "./assets/images/html.png",
+      level: "expert"
+    },
+    {
+      title: "CSS",
+      logo: "fa-brands fa-css3-alt",
+      photo: "../../../../assets/images/css.png",
+      level: "expert"
+    },
+    {
+      title: "Bootstrap",
+      logo: "fa-brands fa-css3-alt",
+      photo: "../../../../assets/images/bootstrap.png",
+      level: "expert"
+    },
+    {
+      title: "Tailwind",
+      logo: "fa-brands fa-css3-alt",
+      photo: "../../../../assets/images/tailwind.png",
+      level: "advanced"
+    },
+    {
+      title: "JavaScript",
+      logo: "fa-brands fa-square-js",
+      photo: "../../../../assets/images/js.png",
+      level: "advanced"
+    },
+    {
+      title: "TypeScript",
+      logo: "fa-regular fa-t",
+      photo: "../../../../assets/images/ts.png",
+      level: "advanced"
+    },
+    {
+      title: "Angular",
+      logo: "fa-brands fa-angular",
+      photo: "../../../../assets/images/angular.png",
+      level: "advanced"
+    },
+    {
+      title: "RxJs",
+      logo: "fa-brands fa-react",
+      photo: "../../../../assets/images/rxjs.png",
+      level: "intermediate"
+    },
+    {
+      title: "React",
+      logo: "fa-brands fa-react",
+      photo: "../../../../assets/images/react.png",
+      level: "intermediate"
+    },
+    {
+      title: "Redux",
+      logo: "fa-brands fa-react",
+      photo: "../../../../assets/images/redux.png",
+      level: "basic"
+    },
+    {
+      title: "Git",
+      logo: "fa-brands fa-git",
+      photo: "../../../../assets/images/git.png",
+      level: "intermediate"
+    },
+    {
+      title: "NodeJs",
+      logo: "fa-brands fa-node-js",
+      photo: "../../../../assets/images/nodejs.png",
+      level: "intermediate"
+    },
+    {
+      title: "Express",
+      logo: "fa-brands fa-node-js",
+      photo: "../../../../assets/images/express.png",
+      level: "learning"
+    },
+    {
+      title: "Mongo DB",
+      logo: "fa-solid fa-database",
+      photo: "../../../../assets/images/mongodb.png",
+      level: "learning"
+    },
+    {
+      title: "Adobe Photoshop",
+      logo: "fa-regular fa-p",
+      photo: "../../../../assets/images/photoshop.png",
+      level: "basic "
+    },
+    {
+      title: "Adobe XD",
+      logo: "fa-regular fa-x",
+      photo: "../../../../assets/images/xd.png",
+      level: "basic"
+    }
+  ]
   const skills = document.getElementById("skills");
   let h2 = document.createElement("h2");
   let i = document.createElement("i");
@@ -95,7 +219,7 @@ function renderSkills() {
   skills.appendChild(h2);
   let html = "";
   // <i class="${i.logo} fa-xl text-blue p-2"></i> ${i.title}
-  data.default.skills.forEach((i) => {
+  data.forEach((i) => {
     let segment = `<div class="flex gap-1 justify-between sm:justify-center mx-0 lg:mx-10">
     <div class="flex basis-2/6 sm:basis-1/6 my-2">
     <img width="50" height="40" src=${i.photo} alt=${i.title} class="mr-2 md:mr-5 w-5 h-5 md:w-12 md:h-12"  />
@@ -109,9 +233,13 @@ function renderSkills() {
 }
 
 function renderPersonalSection() {
+  const  personal = {
+    title: "Shared Module",
+    img: "../../../../assets/images/mobina.jpg"
+  }
   const summary = document.getElementById("summary");
   summary.innerHTML = `<img width="200" height="200" class="mx-auto rounded-3xl mb-4 shadow-md"
-  src="${data.default.about.personal.img}" alt="${data.default.about.personal.title}" />
+  src="${personal.img}" alt="${personal.title}" />
   <div class="flex justify-center">
  <p class="text-black basis-full md:basis-2/3 mt-10">
   I am 26 years old married woman who is a feminist
@@ -142,9 +270,18 @@ function renderPersonalSection() {
 }
 
 function renderBlog() {
+  const data = [
+    {
+      title: "Shared Module",
+      description: "We intend to build an angular application with shared module for making use of reusable codes.",
+      img: "../../../../assets/images/shared-module.png",
+      link: "https://medium.com/@mobinaya/shared-module-in-angular-bc56f8264b2e",
+      date: "May 28, 2021"
+    }
+  ]
   const blog = document.getElementById("blogs");
   let html = "";
-  data.default.blogItems.forEach((i) => {
+  data.forEach((i) => {
     let segment = `<a href=${i.link} target="_blank" class="self-center rounded border border-gray
      shadow text-dark p-4">
     <img src="${i.img}" alt="${i.title}">
@@ -169,9 +306,31 @@ document.getElementById("sendEmail").addEventListener("click", function () {
 });
 
 function renderSocialMedia() {
+  const  socialMediaItems = [
+    {
+      name: "Linkedin",
+      link: "https://www.linkedin.com/in/mobina-khalilzade/",
+      icon: "fab fa-linkedin-in"
+    },
+    {
+      name: "Github",
+      link: "https://github.com/mobinakhalilzade",
+      icon: "fab fa-github"
+    },
+    {
+      name: "Whatsapp",
+      link: "https://wa.me/+989016355725",
+      icon: "fab fa-whatsapp"
+    },
+    {
+      name: "Telegram",
+      link: "https://t.me/mobinaya",
+      icon: "fa-brands fa-telegram"
+    }
+  ]
   const socialMedia = document.getElementById("socialMedia");
   let html = "";
-  data.default.socialMediaItems.forEach((i) => {
+  socialMediaItems.forEach((i) => {
     let segment = `<div class="text-center">
     <a class="text-primary" href="${i.link}" target="_blank">
       <i class="${i.icon} fa-2x text-blue"></i>
