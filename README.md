@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, It's
-<a href="" target="blank">Mobina</a>
+<a target="_blank" href="">Mobina</a>
 </h1>
 
 <h3 align="center">A Frontend developer</h3>
@@ -26,7 +26,7 @@
 
 - 📫 How to reach me **mobinakhalilzade@gmail.com**
 
-- 📄 Know about my experiences on my <a href="https://drive.google.com/file/d/17w01GAwFCKACeK3YYbeA1-C9bXeqWlZo/view?usp=share_link" target="blank">Resume</a>
+- 📄 Know about my experiences on my <a target="_blank" href="https://drive.google.com/file/d/17w01GAwFCKACeK3YYbeA1-C9bXeqWlZo/view?usp=share_link">Resume</a>
 
 <br/>
 
