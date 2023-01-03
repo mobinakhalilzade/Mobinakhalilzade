@@ -95,7 +95,7 @@ function renderProfessionalSection() {
   const professional =  {
     title: "Mobina Khalilzade",
     description: "I am a computer science graduate. Since 2019, I have been working as a front-end developer specializing in the Angular framework in order to build and develop websites, PWAs, and admin dashboards. I have experienced working for both startup and well-established companies. I am currently living in Istanbul, Turkey but I was born in Tehran, Iran. I speak Farsi, English, Spanish and Turkish.",
-    img: "./assets/images/mobinakhalilzade-crop.jpg",
+    img: "../assets/images/mobinakhalilzade-crop.jpg",
     link: "https://drive.google.com/file/d/17w01GAwFCKACeK3YYbeA1-C9bXeqWlZo/view?usp=share_link"
   };
   const photo = document.getElementById("photo");
@@ -114,97 +114,97 @@ function renderSkills() {
     {
       title: "HTML",
       logo: "fa-brands fa-html5",
-      photo: "./assets/images/html.png",
+      photo: "../assets/images/html.png",
       level: "expert"
     },
     {
       title: "CSS",
       logo: "fa-brands fa-css3-alt",
-      photo: "../../../../assets/images/css.png",
+      photo: "../assets/images/css.png",
       level: "expert"
     },
     {
       title: "Bootstrap",
       logo: "fa-brands fa-css3-alt",
-      photo: "../../../../assets/images/bootstrap.png",
+      photo: "../assets/images/bootstrap.png",
       level: "expert"
     },
     {
       title: "Tailwind",
       logo: "fa-brands fa-css3-alt",
-      photo: "../../../../assets/images/tailwind.png",
+      photo: "../assets/images/tailwind.png",
       level: "advanced"
     },
     {
       title: "JavaScript",
       logo: "fa-brands fa-square-js",
-      photo: "../../../../assets/images/js.png",
+      photo: "../assets/images/js.png",
       level: "advanced"
     },
     {
       title: "TypeScript",
       logo: "fa-regular fa-t",
-      photo: "../../../../assets/images/ts.png",
+      photo: "../assets/images/ts.png",
       level: "advanced"
     },
     {
       title: "Angular",
       logo: "fa-brands fa-angular",
-      photo: "../../../../assets/images/angular.png",
+      photo: "../assets/images/angular.png",
       level: "advanced"
     },
     {
       title: "RxJs",
       logo: "fa-brands fa-react",
-      photo: "../../../../assets/images/rxjs.png",
+      photo: "../assets/images/rxjs.png",
       level: "intermediate"
     },
     {
       title: "React",
       logo: "fa-brands fa-react",
-      photo: "../../../../assets/images/react.png",
+      photo: "../assets/images/react.png",
       level: "intermediate"
     },
     {
       title: "Redux",
       logo: "fa-brands fa-react",
-      photo: "../../../../assets/images/redux.png",
+      photo: "../assets/images/redux.png",
       level: "basic"
     },
     {
       title: "Git",
       logo: "fa-brands fa-git",
-      photo: "../../../../assets/images/git.png",
+      photo: "../assets/images/git.png",
       level: "intermediate"
     },
     {
       title: "NodeJs",
       logo: "fa-brands fa-node-js",
-      photo: "../../../../assets/images/nodejs.png",
+      photo: "../assets/images/nodejs.png",
       level: "intermediate"
     },
     {
       title: "Express",
       logo: "fa-brands fa-node-js",
-      photo: "../../../../assets/images/express.png",
+      photo: "../assets/images/express.png",
       level: "learning"
     },
     {
       title: "Mongo DB",
       logo: "fa-solid fa-database",
-      photo: "../../../../assets/images/mongodb.png",
+      photo: "../assets/images/mongodb.png",
       level: "learning"
     },
     {
       title: "Adobe Photoshop",
       logo: "fa-regular fa-p",
-      photo: "../../../../assets/images/photoshop.png",
+      photo: "../assets/images/photoshop.png",
       level: "basic "
     },
     {
       title: "Adobe XD",
       logo: "fa-regular fa-x",
-      photo: "../../../../assets/images/xd.png",
+      photo: "../assets/images/xd.png",
       level: "basic"
     }
   ]
@@ -235,7 +235,7 @@ function renderSkills() {
 function renderPersonalSection() {
   const  personal = {
     title: "Shared Module",
-    img: "../../../../assets/images/mobina.jpg"
+    img: "../assets/images/mobina.jpg"
   }
   const summary = document.getElementById("summary");
   summary.innerHTML = `<img width="200" height="200" class="mx-auto rounded-3xl mb-4 shadow-md"
@@ -306,7 +306,7 @@ function renderBlog() {
     {
       title: "Shared Module",
       description: "We intend to build an angular application with shared module for making use of reusable codes.",
-      img: "../../../../assets/images/shared-module.png",
+      img: "../assets/images/shared-module.png",
       link: "https://medium.com/@mobinaya/shared-module-in-angular-bc56f8264b2e",
       date: "May 28, 2021"
     }
