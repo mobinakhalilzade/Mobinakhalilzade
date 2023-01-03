@@ -9,7 +9,7 @@
 </p>
 
 <a target="_blank" align="center">
-  <img align="right" top="500" height="300" width="400" alt="GIF" src="https://media.giphy.com/media/BACNp4PYgXACSPujxi/giphy.gif">
+  <img align="right" top="500" height="260" width="370" alt="GIF" src="https://media.giphy.com/media/BACNp4PYgXACSPujxi/giphy.gif">
 </a>
 
 <!-- - 🔭 I’m currently working in <a href="" target="blank">name</a> -->
