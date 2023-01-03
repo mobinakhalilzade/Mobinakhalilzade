@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm 
+<h1 align="center">Hi 👋, It's
 <a href="" target="blank">Mobina</a>
 </h1>
 
@@ -14,7 +14,7 @@
 
 <!-- - 🔭 I’m currently working in <a href="" target="blank">name</a> -->
 
-- 🌱 I’m currently Working on PWA (Angular)
+- 💻 I’m currently Working on PWA (Angular)
 
 - 🤝 I’m open to work.
 
@@ -102,9 +102,9 @@
 
  <div align="center"  class="icons-social" style="margin-left: 10px;">
         <a style="margin-left: 10px;"  target="_blank" href="https://www.linkedin.com/in/mobina-khalilzade/">
-			<img width="40" height="50" src="https://as2.ftcdn.net/v2/jpg/03/96/56/19/1000_F_396561934_t1OwjMZHrVY211bHA5uUEAix0F1SyLci.jpg"></a>
+			<img width="40" height="30" src="https://assets.stickpng.com/images/58e91afdeb97430e81906504.png"></a>
         <a style="margin-left: 10px;" target="_blank" href="https://github.com/mobinakhalilzade">
-		<img width="40" height="50" src="https://banner2.cleanpng.com/20180824/jtl/kisspng-computer-icons-logo-portable-network-graphics-clip-icons-for-free-iconza-circle-social-5b7fe46b0bac53.1999041115351082030478.jpg"></a>
+		<img width="40" height="30" src="https://cdn-icons-png.flaticon.com/512/25/25231.png"></a>
 		<a style="margin-left: 10px;" target="_blank" href="https://stackoverflow.com/users/11771605/mobina-khalilzade">
 				<img width="40" height="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Stack_Overflow_icon.svg/768px-Stack_Overflow_icon.svg.png"></a>
       </div>
