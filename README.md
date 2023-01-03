@@ -102,10 +102,10 @@
 
  <div align="center"  class="icons-social" style="margin-left: 10px;">
         <a style="margin-left: 10px;"  target="_blank" href="https://www.linkedin.com/in/mobina-khalilzade/">
-			<img width="40" height="30" src="https://olc-wordpress-assets.s3.amazonaws.com/uploads/2020/05/linkedin-icon.png"
+			<img width="40" height="50" src="https://olc-wordpress-assets.s3.amazonaws.com/uploads/2020/05/linkedin-icon.png"
             alt="Linkedin logo"></a>
         <a style="margin-left: 10px;" target="_blank" href="https://github.com/mobinakhalilzade">
-		<img width="40" height="50" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github logo"></a>
+		<img width="45" height="45" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github logo"></a>
 		<a style="margin-left: 10px;" target="_blank" href="https://stackoverflow.com/users/11771605/mobina-khalilzade">
 				<img width="40" height="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Stack_Overflow_icon.svg/768px-Stack_Overflow_icon.svg.png" alt="Stackoverflow logo"></a>
       </div>
