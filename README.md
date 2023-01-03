@@ -10,8 +10,9 @@
 
 
 <a target="_blank" align="center">
-  <img align="right" top="500" height="300" width="400" alt="GIF" src="https://giphy.com/gifs/scaler-official-happy-coffee-cartoon-BACNp4PYgXACSPujxi">
+  <img align="right" top="500" height="300" width="400" alt="GIF" src="https://media.giphy.com/media/BACNp4PYgXACSPujxi/giphy.gif">
 </a>
+
 
 <!-- - 🔭 I’m currently working in <a href="" target="blank">name</a> -->
 
@@ -36,10 +37,10 @@
 
  <div align="center"  class="icons-social" style="margin-left: 10px;">
         <a style="margin-left: 10px;"  target="_blank" href="https://www.linkedin.com/in/mobina-khalilzade/">
-			<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftr.m.wikipedia.org%2Fwiki%2FDosya%3ALinkedIn_logo_initials.png&psig=AOvVaw2wnle6OziHPoYthmlI2ZN9&ust=1672829026028000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLiok--bq_wCFQAAAAAdAAAAABAE"></a>
+			<img src="https://as2.ftcdn.net/v2/jpg/03/96/56/19/1000_F_396561934_t1OwjMZHrVY211bHA5uUEAix0F1SyLci.jpg"></a>
         <a style="margin-left: 10px;" target="_blank" href="https://github.com/mobinakhalilzade">
-		<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Flogos&psig=AOvVaw2He23puiCtBP2dtpQ4FyeV&ust=1672829234039000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJDXutKcq_wCFQAAAAAdAAAAABAE"></a>
+		<img src="https://banner2.cleanpng.com/20180824/jtl/kisspng-computer-icons-logo-portable-network-graphics-clip-icons-for-free-iconza-circle-social-5b7fe46b0bac53.1999041115351082030478.jpg"></a>
 		<a style="margin-left: 10px;" target="_blank" href="https://stackoverflow.com/users/11771605/mobina-khalilzade">
-				<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AStack_Overflow_icon.svg&psig=AOvVaw29OUHnFdb0ntnTt2_x_f7e&ust=1672829513894000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKC779edq_wCFQAAAAAdAAAAABAE"></a>
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Stack_Overflow_icon.svg/768px-Stack_Overflow_icon.svg.png"></a>
       </div>
 </p>
