@@ -770,6 +770,10 @@ input,
   width: 50%;
 }
 
+.grow {
+  flex-grow: 1;
+}
+
 .basis-full {
   flex-basis: 100%;
 }
@@ -784,6 +788,10 @@ input,
 
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .justify-center {
@@ -909,6 +917,11 @@ input,
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-\[50px\] {
@@ -1256,6 +1269,10 @@ hr {
 }
 
 @media (min-width: 640px) {
+  .sm\:grow-0 {
+    flex-grow: 0;
+  }
+
   .sm\:basis-1\/6 {
     flex-basis: 16.666667%;
   }

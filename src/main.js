@@ -102,7 +102,7 @@ function renderProfessionalSection() {
   photo.innerHTML = `<img width="200" height="100" class="mx-auto rounded-full mb-4 shadow-md"
     src="${professional.img}" alt="${professional.title}" />
     <div class="flex justify-center">
-   <p class="text-black basis-full md:basis-2/3">${professional.description}</p></div>
+   <p class="text-black basis-full md:basis-2/3 text-lg font-medium">${professional.description}</p></div>
    <div class="text-center text-pink mx-auto">
    <label class="block my-5">Here my resume</label>
    <a target="_blank"href=${professional.link}><i class="fa-solid fa-file-lines fa-2xl"></i></a></div>
@@ -211,10 +211,10 @@ function renderSkills() {
   const skills = document.getElementById("skills");
   let h2 = document.createElement("h2");
   let i = document.createElement("i");
-  i.classList.add("fa-solid", "fa-code", "text-blue");
+  i.classList.add("fa-solid", "fa-code", "text-blue",'mr-2');
   const skillText = document.createTextNode("Skills ");
-  h2.appendChild(skillText);
   h2.appendChild(i);
+  h2.appendChild(skillText);
   h2.classList.add("text-black", "text-center", "pb-8");
   skills.appendChild(h2);
   let html = "";
@@ -235,13 +235,21 @@ function renderSkills() {
 function renderPersonalSection() {
   const  personal = {
     title: "Shared Module",
-    img: "../assets/images/mobina.jpg"
+    img1: "../assets/images/mobina.jpg",
+    img2: "../assets/images/mobina-laptop.jpg",
   }
   const summary = document.getElementById("summary");
-  summary.innerHTML = `<img width="200" height="200" class="mx-auto rounded-3xl mb-4 shadow-md"
-  src="${personal.img}" alt="${personal.title}" />
+  // <img width="200" height="200" class="mx-auto rounded-3xl mb-4 shadow-md"
+  // src="${personal.img}" alt="${personal.title}" />
+  summary.innerHTML = `<div class="flex flex-wrap justify-center gap-10">
+  <img width="300" height="300" class="grow sm:grow-0 rounded-3xl mb-4 shadow-md"
+  src="${personal.img1}" alt="${personal.title}" />
+  <img width="300" height="300" class="grow sm:grow-0 rounded-3xl mb-4 shadow-md"
+  src="${personal.img2}" alt="${personal.title}" />
+  </div>
+  
   <div class="flex justify-center">
- <p class="text-black basis-full md:basis-2/3 mt-10">
+ <p class="text-black basis-full md:basis-2/3 mt-10 text-lg font-medium">
   I am 26 years old married woman who is a feminist
   <img class="inline m-0 p-0" width="30" height="30" src=../assets/images/feminism.png /> at heart and besides coding,
   I spend my time on many different things. I care about a healthy lifestyle, so I cook for almost every meal.
