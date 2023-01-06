@@ -291,7 +291,7 @@ function duolingoStreak() {
   let today = new Date();
   let day = new Date("2023/01/03");
 
-  let difference = dateDiffInDays(today, day);
+  let difference = dateDiffInDays(day,today);
   let streak = 393 + difference;
 
   let html = "";
