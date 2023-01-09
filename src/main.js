@@ -104,8 +104,9 @@ function renderProfessionalSection() {
     <div class="flex justify-center">
    <p class="text-black basis-full md:basis-2/3 text-lg font-medium">${professional.description}</p></div>
    <div class="text-center text-pink mx-auto">
-   <label class="block my-5">Here my resume</label>
-   <a target="_blank" href=${professional.link} aria-label="Resume"><i class="fa-solid fa-file-lines fa-2xl"></i></a></div>
+   <label class="block my-5">My resume</label>
+   <a target="_blank" href=${professional.link} aria-label="Resume">
+   <i class="fa-solid fa-file-lines fa-2xl"></i></a></div>
    `;
 }
 
