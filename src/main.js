@@ -105,7 +105,7 @@ function renderProfessionalSection() {
    <p class="text-black basis-full md:basis-2/3 text-lg font-medium">${professional.description}</p></div>
    <div class="text-center text-pink mx-auto">
    <label class="block my-5">Here my resume</label>
-   <a target="_blank"href=${professional.link}><i class="fa-solid fa-file-lines fa-2xl"></i></a></div>
+   <a target="_blank" href=${professional.link} aria-label="Resume"><i class="fa-solid fa-file-lines fa-2xl"></i></a></div>
    `;
 }
 
@@ -372,7 +372,7 @@ function renderSocialMedia() {
   let html = "";
   socialMediaItems.forEach((i) => {
     let segment = `<div class="text-center">
-    <a class="text-primary" href="${i.link}" target="_blank">
+    <a href="${i.link}" target="_blank" aria-label=${i.name}>
       <i class="${i.icon} fa-2x text-blue"></i>
     </a>
     </div>`;
