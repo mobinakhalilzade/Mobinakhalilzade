@@ -319,13 +319,21 @@ function renderBlog() {
       link: "https://medium.com/@mobinaya/shared-module-in-angular-bc56f8264b2e",
       date: "May 28, 2021",
     },
+    {
+      title: "YDKJSYet: Scope & Closures",
+      description:
+        "Lately, I have started to read the famous book series You Don’t Know JS Yet by Kyle Simpson. I decided to write a recap based on every chapter for those who probably do not have enough time to read it completely.",
+      img: "../assets/images/YDKJSYET-2-1.png",
+      link: "https://mobinaya.medium.com/ydkjsyet-scope-closures-chapter-1-efd5115f2f41",
+      date: "Jan 15, 2023",
+    },
   ];
   const blog = document.getElementById("blogs");
   let html = "";
   data.forEach((i) => {
     let segment = `<a href=${i.link} target="_blank" class="self-center rounded border border-gray
      shadow text-dark p-4">
-    <img src="${i.img}" alt="${i.title}">
+    <img src="${i.img}" alt="${i.title}" class="h-[170px] w-full">
     <h3 class="my-4">${i.title}</h3>
     <p class="text-base text-truncate-2">${i.description}</p>
     <small class="text-seconary">
