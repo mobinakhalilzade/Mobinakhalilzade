@@ -318,15 +318,15 @@ function renderBlog() {
       img: "../assets/images/shared-module.png",
       link: "https://medium.com/@mobinaya/shared-module-in-angular-bc56f8264b2e",
       date: "May 28, 2021",
-    },
-    {
-      title: "YDKJSYet: Scope & Closures",
-      description:
-        "Lately, I have started to read the famous book series You Don’t Know JS Yet by Kyle Simpson. I decided to write a recap based on every chapter for those who probably do not have enough time to read it completely.",
-      img: "../assets/images/YDKJSYET-2-1.png",
-      link: "https://mobinaya.medium.com/ydkjsyet-scope-closures-chapter-1-efd5115f2f41",
-      date: "Jan 15, 2023",
-    },
+    }
+    // {
+    //   title: "YDKJSYet: Scope & Closures",
+    //   description:
+    //     "Lately, I have started to read the famous book series You Don’t Know JS Yet by Kyle Simpson. I decided to write a recap based on every chapter for those who probably do not have enough time to read it completely.",
+    //   img: "../assets/images/YDKJSYET-2-1.png",
+    //   link: "https://mobinaya.medium.com/ydkjsyet-scope-closures-chapter-1-efd5115f2f41",
+    //   date: "Jan 15, 2023",
+    // },
   ];
   const blog = document.getElementById("blogs");
   let html = "";
