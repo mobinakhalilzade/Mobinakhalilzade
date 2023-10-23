@@ -22,7 +22,8 @@
 - 📫 How to reach me **mobinakhalilzade@gmail.com**
 
 - 📄 Know about my experiences on my <a target="_blank" href="https://drive.google.com/file/d/17w01GAwFCKACeK3YYbeA1-C9bXeqWlZo/view?usp=share_link">Resume</a>
-<!-- - 📝 I regularly write articles on [name](link) -->
+
+- 📝 Read my writtings on [medium](https://medium.com/@mobinaya) 
 
 <br/>
 
@@ -74,17 +75,10 @@
  <h3 align="center">Backend</h3>
 <p align="center">
 
-   <a href="https://go.dev" target="_blank">
-    <img src="https://img.shields.io/badge/golang?style=for-the-badge&logo=nodedotjs&logoColor=blue"
-      alt="Golang"/>
-  </a>
-
   <a href="https://golang.org" target="_blank">
   <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white"
     alt="Go"/>
 </a>
-
-  
   <a href="https://nodejs.org" target="_blank">
     <img src="https://img.shields.io/badge/node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white"
       alt="nodejs"/>
