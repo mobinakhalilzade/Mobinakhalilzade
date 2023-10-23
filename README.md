@@ -2,7 +2,7 @@
 <a target="_blank" href="">Mobina</a>
 </h1>
 
-<h3 align="center">A Frontend developer</h3>
+<h3 align="center">Frontend developer</h3>
 
 <p align="left">
 <img src="https://komarev.com/ghpvc/?username=mobinakhalilzade" alt="Mobinakhalilzade" />
