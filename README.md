@@ -78,6 +78,12 @@
     <img src="https://img.shields.io/badge/golang?style=for-the-badge&logo=nodedotjs&logoColor=blue"
       alt="Golang"/>
   </a>
+
+  <a href="https://golang.org" target="_blank">
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white"
+    alt="Go"/>
+</a>
+
   
   <a href="https://nodejs.org" target="_blank">
     <img src="https://img.shields.io/badge/node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white"
