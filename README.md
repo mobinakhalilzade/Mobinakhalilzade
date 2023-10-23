@@ -13,15 +13,15 @@
 </a>
 
 
-- 👩‍💻 I’m Senior Angular developer at <a target="_blank" href="https://drive.google.com/file/d/17w01GAwFCKACeK3YYbeA1-C9bXeqWlZo/view?usp=share_link">Sunshine Creative Team</a>.
-
+- 👩‍💻 I’m Senior Angular developer at [Sunshine Creative Team](https://www.linkedin.com/company/sunshine-creative-team)
+  
 - 🌱 I’m currently learning Golang
 
 - 💬 Ask me about **JavaScript & Angular**
 
 - 📫 How to reach me **mobinakhalilzade@gmail.com**
 
-- 📄 Know about my experiences on my <a target="_blank" href="https://drive.google.com/file/d/17w01GAwFCKACeK3YYbeA1-C9bXeqWlZo/view?usp=share_link">Resume</a>
+- 📄 Know about my experiences on my [Resume](https://drive.google.com/file/d/17w01GAwFCKACeK3YYbeA1-C9bXeqWlZo/view?usp=share_link) 
 
 - 📝 Read my writtings on [Medium](https://medium.com/@mobinaya) 
 
