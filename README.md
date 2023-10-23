@@ -23,7 +23,7 @@
 
 - 📄 Know about my experiences on my <a target="_blank" href="https://drive.google.com/file/d/17w01GAwFCKACeK3YYbeA1-C9bXeqWlZo/view?usp=share_link">Resume</a>
 
-- 📝 Read my writtings on [medium](https://medium.com/@mobinaya) 
+- 📝 Read my writtings on [Medium](https://medium.com/@mobinaya) 
 
 <br/>
 
