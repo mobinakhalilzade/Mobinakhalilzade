@@ -12,15 +12,12 @@
   <img align="right" top="500" height="260" width="375" alt="GIF" src="https://media.giphy.com/media/BACNp4PYgXACSPujxi/giphy.gif">
 </a>
 
-<!-- - 🔭 I’m currently working in <a href="" target="blank">name</a> -->
 
-- 💻 I’m currently Working on PWA (Angular)
+- 👩‍💻 I’m Senior Angular developer at <a target="_blank" href="https://drive.google.com/file/d/17w01GAwFCKACeK3YYbeA1-C9bXeqWlZo/view?usp=share_link">Sunshine Creative Team</a>.
 
-- 🤝 I’m open to work.
+- 🌱 I’m currently learning Golang
 
 - 💬 Ask me about **JavaScript & Angular**
-
-- 🌱 I’m currently learning React.js && node.js
 
 - 📫 How to reach me **mobinakhalilzade@gmail.com**
 
@@ -53,18 +50,10 @@
       alt="bootstrap"/>
   </a>
 
-  <!-- <a href="https://reactjs.org/" target="_blank"> 
+   <a href="https://reactjs.org/" target="_blank"> 
     <img src="https://img.shields.io/badge/reactjs-61DAFB.svg?style=for-the-badge&logo=react&logoColor=black"
       alt="react"/> 
   </a>
-  <a href="https://redux.js.org" target="_blank"> 
-    <img src="https://img.shields.io/badge/redux-764ABC.svg?style=for-the-badge&logo=redux&logoColor=white" alt="redux"/> 
-  </a>  -->
-
-  <!-- <a href="https://webpack.js.org" target="_blank">
-    <img src="https://img.shields.io/badge/webpack-8DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black"
-      alt="webpack"/>
-  </a> -->
 </p>
 
 <p align="center">
@@ -82,8 +71,14 @@
   </a>
   </p>
 
-<!-- <h3 align="center">Backend</h3>
+ <h3 align="center">Backend</h3>
 <p align="center">
+
+   <a href="https://go.dev" target="_blank">
+    <img src="https://img.shields.io/badge/golang?style=for-the-badge&logo=nodedotjs&logoColor=blue"
+      alt="Golang"/>
+  </a>
+  
   <a href="https://nodejs.org" target="_blank">
     <img src="https://img.shields.io/badge/node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white"
       alt="nodejs"/>
@@ -95,7 +90,7 @@
     <img src="https://img.shields.io/badge/mongodb-47A248.svg?style=for-the-badge&logo=mongodb&logoColor=white"
       alt="mongodb"/>
   </a>
-</p> -->
+</p> 
 
 <h3 align="center" > Connect with me 🤝 </h3>
 
