@@ -21,7 +21,7 @@
 
 - 📫 How to reach me **mobinakhalilzade@gmail.com**
 
-- 📄 Know about my experiences on my [Resume](https://drive.google.com/file/d/1MOBWS9Xf0MqttxNfhNYqFbH1y79GsGW6/view?usp=sharing) 
+- 📄 Know about my experiences on my [Resume](https://drive.google.com/file/d/1ccL5CK50Q8jv_Oyi64IaLjKG9gKRx6MI/view?usp=sharing) 
 
 - 📝 Read my writtings on [Medium](https://medium.com/@mobinaya) 
 
