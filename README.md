@@ -13,7 +13,7 @@
 </a>
 
 
-- 👩‍💻 I’m Senior Angular developer at [Artechly](https://www.linkedin.com/company/artechly/)
+- 👩‍💻 I’m Angular developer at [MyDigipay](https://www.mydigipay.com/)
   
 - 🌱 I’m currently learning Golang
 
