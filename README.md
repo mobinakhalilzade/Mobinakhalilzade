@@ -13,7 +13,7 @@
 </a>
 
 
-- 👩‍💻 I’m Angular developer at [MyDigipay](https://www.mydigipay.com/)
+- 👩‍💻 I’m Angular developer at [TAMIN](https://www.taminict.ir/)
   
 - 🌱 I’m currently learning Golang
 
