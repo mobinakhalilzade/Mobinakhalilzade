@@ -250,7 +250,7 @@ function renderPersonalSection() {
   
   <div class="flex justify-center">
  <p class="text-black basis-full md:basis-2/3 mt-10 text-lg font-medium">
-  I am 26 years old married woman who is a feminist
+  I am 29 years old woman who is a feminist
   <img class="inline m-0 p-0" width="30" height="30" src=../assets/images/feminism.png alt="feminism logo" /> at heart and besides coding,
   I spend my time on many different things. I care about a healthy lifestyle, so I cook for almost every meal.
   baking cookies and cakes make me really happy. Honestly, I enjoy cooking more than eating :)
